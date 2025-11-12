@@ -70,4 +70,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <b>Aarya</b><br>
 IT Engineering student | Learning Defensive Security and Development
 </p>
+
+<hr>
+
 <p>Project inspired by Kylie Ying’s tutorial on YouTube.</p>
