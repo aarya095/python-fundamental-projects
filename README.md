@@ -2,7 +2,11 @@
 
 <p>
 A collection of small beginner-friendly Python projects built to strengthen programming logic and problem-solving skills.  
-Currently includes <b>Mad Libs</b> and <b>Guess the Number</b> games.
+Currently includes:
+<ul>
+  <li>Mad Libs</li>
+  <li>Guess the Number</li>
+</ul>
 </p>
 
 <hr>
