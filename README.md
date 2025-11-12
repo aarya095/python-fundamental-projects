@@ -32,6 +32,9 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
   <li>String concatenation and formatting</li>
 </ul>
 
+<p>Example Output</p>
+<img width="569" height="315" alt="image" src="https://github.com/user-attachments/assets/5cd30991-16ac-4978-b440-af9571b5ab57" />
+
 <h3>2. Guess the Number</h3>
 <p>Includes two variations:</p>
 <ul>
@@ -46,6 +49,12 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
   <li>Random number generation</li>
   <li>Logic design</li>
 </ul>
+
+<p>Example Output</p>
+<h3>User tries to guess the number:</h3>
+<img width="625" height="460" alt="image" src="https://github.com/user-attachments/assets/109303cc-1032-4c17-8973-eb4220ebb348" />
+<h3>Computer tries to guess the number:</h3>
+<img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
 
 <hr>
 
