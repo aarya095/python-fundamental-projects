@@ -64,6 +64,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 </ul>
 
 <hr>
+<p>Project inspired by Kylie Ying’s tutorial on YouTube.</p>
 
 <h2>🧑‍💻 Author</h2>
 <p>
