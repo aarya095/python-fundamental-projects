@@ -6,6 +6,7 @@ Currently includes:
 <ul>
   <li>Mad Libs</li>
   <li>Guess the Number</li>
+  <li>Rock-Paper-Scissor</li>
 </ul>
 </p>
 
@@ -51,10 +52,27 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 </ul>
 
 <p>Example Output</p>
-<h3>User tries to guess the number:</h3>
+<h4>User tries to guess the number:</h4>
 <img width="625" height="460" alt="image" src="https://github.com/user-attachments/assets/109303cc-1032-4c17-8973-eb4220ebb348" />
-<h3>Computer tries to guess the number:</h3>
+<h4>Computer tries to guess the number:</h4>
 <img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
+
+<h3>3. Rock-Paper-Scissor</h3>
+<p>
+A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
+The program randomly selects its choice and compares it with the user's input to determine the winner. 
+It continues running until the user decides to exit.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>Random module for generating computer choices</li>
+  <li>Conditional logic for win/loss evaluation</li>
+  <li>Loop control and user input handling</li>
+  <li>Program termination using exit conditions</li>
+</ul>
+<p>Example Output</p>
+<img width="560" height="492" alt="image" src="https://github.com/user-attachments/assets/36bc199c-eeb2-41ce-af82-d7e3a50c888c" />
 
 <hr>
 
@@ -62,7 +80,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <ul>
   <li>Strengthen understanding of Python basics</li>
   <li>Practice problem decomposition and logic flow</li>
-  <li>Build a foundation for scripting and automation in cybersecurity</li>
+  <li>Build a foundation for scripting and automation in Python</li>
 </ul>
 
 <hr>
@@ -82,4 +100,4 @@ IT Engineering student | Learning Defensive Security and Development
 
 <hr>
 
-<p>Project inspired by Kylie Ying’s tutorial on YouTube.</p>
+<p>Projects inspired by Kylie Ying’s tutorial on YouTube.</p>
