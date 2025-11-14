@@ -42,7 +42,7 @@ completes the word or exits manually.
 
 <p>Example Output</p>
 <img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/0300b49f-1c1f-4d78-b5f3-0f2a18852c23" width=300/>
-<img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/816905f5-59d2-406d-9376-8b84e9760a25" />
+<img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/816905f5-59d2-406d-9376-8b84e9760a25" width=300/>
 
 <h3>Rock-Paper-Scissor</h3>
 <p>
