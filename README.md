@@ -22,6 +22,35 @@ Each mini project is designed to reinforce basic programming concepts like varia
 
 <h2>🧩 Projects</h2>
 
+<h3>3. Hangman</h3>
+<p>
+A console-based Hangman game where the computer selects a random word from a predefined list, 
+and the player attempts to guess it one letter at a time. The program tracks correct guesses, 
+incorrect guesses, and previously attempted letters. The game continues until the player either 
+completes the word or exits manually.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>Random module for selecting a hidden word</li>
+  <li>List manipulation to track revealed and unrevealed letters</li>
+  <li>Sets for storing previously guessed characters</li>
+  <li>Loop control for repeated guessing</li>
+  <li>Conditional branching for correct and incorrect guesses</li>
+  <li>String and input handling for player interaction</li>
+</ul>
+
+<p>Example Output</p>
+<table>
+  <tr>
+    <td><img src="<img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/85404598-7bb6-4244-ad2a-7314a39c6650" />
+" width="300"></td>
+    <td><img src="<img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/8916efed-e861-4167-ac1b-b791f9a63d2e" />
+" width="300"></td>
+  </tr>
+</table>
+
+
 <h3>Rock-Paper-Scissor</h3>
 <p>
 A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
