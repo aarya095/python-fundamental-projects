@@ -41,15 +41,8 @@ completes the word or exits manually.
 </ul>
 
 <p>Example Output</p>
-<table>
-  <tr>
-    <td><img src="<img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/85404598-7bb6-4244-ad2a-7314a39c6650" />
-" width="300"></td>
-    <td><img src="<img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/8916efed-e861-4167-ac1b-b791f9a63d2e" />
-" width="300"></td>
-  </tr>
-</table>
-
+<img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/0300b49f-1c1f-4d78-b5f3-0f2a18852c23" />
+<img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/816905f5-59d2-406d-9376-8b84e9760a25" />
 
 <h3>Rock-Paper-Scissor</h3>
 <p>
