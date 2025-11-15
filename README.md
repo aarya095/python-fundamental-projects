@@ -4,15 +4,16 @@
 A collection of small beginner-friendly Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
-  <li>Mad Libs</li>
-  <li>Guess the Number</li>
+  <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
+  <li>Guess the Number</li>
+  <li>Mad Libs</li>
 </ul>
 </p>
 
 <hr>
 
-<h2>📘 About</h2>
+<h1>📘 About</h1>
 <p>
 This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Defensive Security</b> and <b>Full Stack Development</b>.<br>
 Each mini project is designed to reinforce basic programming concepts like variables, conditionals, loops, and input handling.
@@ -20,9 +21,9 @@ Each mini project is designed to reinforce basic programming concepts like varia
 
 <hr>
 
-<h2>🧩 Projects</h2>
+<h1>🧩 Projects</h1>
 
-<h3>3. Hangman</h3>
+<h2>Hangman</h2>
 <p>
 A console-based Hangman game where the computer selects a random word from a predefined list, 
 and the player attempts to guess it one letter at a time. The program tracks correct guesses, 
@@ -44,7 +45,7 @@ completes the word or exits manually.
 <img width="558" height="540" alt="image" src="https://github.com/user-attachments/assets/0300b49f-1c1f-4d78-b5f3-0f2a18852c23" width=300/>
 <img width="653" height="559" alt="image" src="https://github.com/user-attachments/assets/816905f5-59d2-406d-9376-8b84e9760a25" width=300/>
 
-<h3>Rock-Paper-Scissor</h3>
+<h2>Rock-Paper-Scissor</2>
 <p>
 A command-line version of the classic Rock-Paper-Scissor game where the user competes against the computer. 
 The program randomly selects its choice and compares it with the user's input to determine the winner. 
@@ -61,7 +62,7 @@ It continues running until the user decides to exit.
 <p>Example Output</p>
 <img width="560" height="492" alt="image" src="https://github.com/user-attachments/assets/36bc199c-eeb2-41ce-af82-d7e3a50c888c" />
 
-<h3>Guess the Number</h3>
+<h2>Guess the Number</h2>
 <p>Includes two variations:</p>
 <ul>
   <li><b>User Guess:</b> The user tries to guess a number randomly chosen by the computer.</li>
@@ -82,7 +83,7 @@ It continues running until the user decides to exit.
 <h4>Computer tries to guess the number:</h4>
 <img width="732" height="779" alt="image" src="https://github.com/user-attachments/assets/419e7cf1-6deb-4562-bc0e-10e0ddeee883" />
 
-<h3>Mad Libs</h3>
+<h2>Mad Libs</h2>
 <p>
 A simple word game where the program takes user inputs (nouns, verbs, adjectives, etc.) and inserts them into a story template to create a fun or random narrative.
 </p>
@@ -98,7 +99,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <hr>
 
-<h2>🧠 Learning Goals</h2>
+<h1>🧠 Learning Goals</h1>
 <ul>
   <li>Strengthen understanding of Python basics</li>
   <li>Practice problem decomposition and logic flow</li>
