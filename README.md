@@ -136,15 +136,6 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <p>Example Output</p>
 <img width="569" height="315" alt="image" src="https://github.com/user-attachments/assets/5cd30991-16ac-4978-b440-af9571b5ab57" />
 
-<hr>
-
-<h2>Learning Goals</h2>
-<ul>
-  <li>Strengthen understanding of Python basics</li>
-  <li>Practice problem decomposition and logic flow</li>
-  <li>Build a foundation for scripting and automation in Python</li>
-</ul>
-
 <h2>Email Slicer</h2>
 <p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. The program then neatly displays these individual components to the user. </p>
 
@@ -171,6 +162,15 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 </ul>
 <p>Example Output</p>
 <img width="823" height="291" alt="image" src="https://github.com/user-attachments/assets/6f9f8620-475a-477e-bcaa-c08c6a1b6deb" />
+
+<hr>
+
+<h2>Learning Goals</h2>
+<ul>
+  <li>Strengthen understanding of Python basics</li>
+  <li>Practice problem decomposition and logic flow</li>
+  <li>Build a foundation for scripting and automation in Python</li>
+</ul>
 
 <hr>
 
