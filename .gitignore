@@ -2,3 +2,5 @@
 *.drawio.bkp
 tic_tac_toe/
 to_do_list/
+simple_projects/venv/
+txt.py
