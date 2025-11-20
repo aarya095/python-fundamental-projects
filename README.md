@@ -161,7 +161,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
   <li>The core String Method <code>.replace(old, new)</code> for substitution</li> 
 </ul>
 <p>Example Output</p>
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/a6184a4e-313f-4d2c-a8a6-cd39955e349b" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/a6184a4e-313f-4d2c-a8a6-cd39955e349b" />
 
 <hr>
 
