@@ -184,7 +184,7 @@ A basic terminal-based quiz that iterates through a predefined set of questions,
   <li>Time delay using <code>time.sleep()</code></li>
 </ul>
 <p>Example Output</p>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/8515a4ab-6839-4ece-a518-80e3962cfaf5" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8515a4ab-6839-4ece-a518-80e3962cfaf5" />
 
 <h2>Mad Libs</h2>
 <p>
