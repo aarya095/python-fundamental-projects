@@ -58,8 +58,9 @@ def roll_dice():
     for i in dice_drawing[dice2]:
         print(i)
 
+print("Welcome To Dice Stimulator!\n")
+
 while True:
-    print("Welcome To Dice Stimulator!\n")
     user_input = input("Want to roll the dice? Type Yes or No: ").lower()
     if user_input == 'yes':
         roll_dice()
