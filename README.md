@@ -45,7 +45,7 @@ character set, and generates a random password of the desired length.
 </ul>
 
 <p>Example Output</p>
-<img width="868" height="444" alt="image" src="https://github.com/user-attachments/assets/91c41e45-01b5-4e56-9634-a553b654c542" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/91c41e45-01b5-4e56-9634-a553b654c542" />
 
 <h2>Hangman</h2>
 <p>
