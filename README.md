@@ -9,6 +9,10 @@ Currently includes:
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
   <li>Basic Calculator</li>
+  <li>Dice Stimulator</li>
+  <li>Quiz</li>
+  <li>Date and Time Display</li>
+  <li>CLI Stopwatch</li>
   <li>Mad Libs</li>
   <li>Email Slicer</li>
   <li>Word Replacer</li>
@@ -121,6 +125,66 @@ It continues running until the user decides to exit.
 </ul>
 <p>Example Output</p>
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a7df13ef-23b6-4895-baaa-562f70bc30c2" />
+
+<h2>Dice Stimulator</h2>
+<p>
+A program that simulates rolling two six-sided dice. Each roll randomly selects values from predefined ASCII art representations and displays the visual output of both dice to the user.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>Random number generation</li>
+  <li>Dictionaries for structured data storage</li>
+  <li>Loops and conditional logic</li>
+  <li>User input handling</li>
+</ul>
+
+<p>Example Output</p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/d6f62027-47b2-4264-9e00-b84fd944d59f" />
+
+<h2>Quiz</h2>
+<p>
+A basic terminal-based quiz that iterates through a predefined set of questions, accepts user input, compares answers, and tracks the total score.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>Dictionaries for structured data storage</li>
+  <li>Loops for sequential question processing</li>
+  <li>User input handling</li>
+  <li>String normalization using <code>.lower()</code></li>
+  <li>Conditional checks for answer validation</li>
+  <li>Basic scoring logic</li>
+</ul>
+
+<p>Example Output</p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/bb0d57b4-ea7c-4e4b-9fa8-8b9c361cd312" />
+
+<h2>Date and Time Display/h2>
+<p> A basic program that retrieves the system’s current date and time using Python’s <code>time</code> module and prints it in a human-readable format. It extracts day, month, and year values, as well as hour, minute, and second values, and outputs them separately. </p>
+
+<b>Concepts used:</b>
+<ul> 
+  <li>Using the <code>time</code> module</li> 
+  <li>Accessing system time structures</li> 
+  <li>Formatted string output</li> 
+</ul>
+  
+<p>Example Output</p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/3c5afe51-3525-4b07-8dd6-a450b02aeadf" />
+
+<h2>Countdown Timer</h2> 
+<p> A basic timer that accepts a number of seconds from the user and performs a countdown, printing each remaining second until it reaches zero. </p>
+
+<b>Concepts used:</b>
+
+<ul> 
+  <li>User input handling</li> 
+  <li>Loop control</li> 
+  <li>Time delay using <code>time.sleep()</code></li>
+</ul>
+<p>Example Output</p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/8515a4ab-6839-4ece-a518-80e3962cfaf5" />
 
 <h2>Mad Libs</h2>
 <p>
