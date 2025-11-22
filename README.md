@@ -8,14 +8,17 @@ Currently includes:
   <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
-  <li>Basic Calculator</li>
-  <li>Dice Simulator</li>
-  <li>Quiz</li>
-  <li>Date and Time Display</li>
-  <li>CLI Stopwatch</li>
-  <li>Mad Libs</li>
-  <li>Email Slicer</li>
-  <li>Word Replacer</li>
+  <ul>
+    <li><b>Simple Projects</b></li>
+    <li>Basic Calculator</li>
+    <li>Dice Simulator</li>
+    <li>Quiz</li>
+    <li>Date and Time Display</li>
+    <li>CLI Stopwatch</li>
+    <li>Mad Libs</li>
+    <li>Email Slicer</li>
+    <li>Word Replacer</li>
+  </ul>
 </ul>
 </p>
 
