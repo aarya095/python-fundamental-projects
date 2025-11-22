@@ -26,8 +26,8 @@ Currently includes:
 
 <h1>About</h1>
 <p>
-This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Defensive Security</b> and <b>Full Stack Development</b>.<br>
-Each mini project is designed to reinforce basic programming concepts like variables, conditionals, loops, and input handling.
+This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Full Stack Development</b> and <b>CyberSecurity</b>.<br>
+Each mini project is designed to reinforce programming concepts like variables, conditionals, loops, and input handling.
 </p>
 
 <hr>
