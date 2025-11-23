@@ -8,14 +8,17 @@ Currently includes:
   <li>Hangman</li>
   <li>Rock-Paper-Scissor</li>
   <li>Guess the Number</li>
-  <li>Basic Calculator</li>
-  <li>Dice Simulator</li>
-  <li>Quiz</li>
-  <li>Date and Time Display</li>
-  <li>CLI Stopwatch</li>
-  <li>Mad Libs</li>
-  <li>Email Slicer</li>
-  <li>Word Replacer</li>
+  <li>Simple Projects</li>
+  <ul>
+    <li>Basic Calculator</li>
+    <li>Dice Simulator</li>
+    <li>Quiz</li>
+    <li>Date and Time Display</li>
+    <li>CLI Stopwatch</li>
+    <li>Mad Libs</li>
+    <li>Email Slicer</li>
+    <li>Word Replacer</li>
+  </ul>
 </ul>
 </p>
 
@@ -23,8 +26,8 @@ Currently includes:
 
 <h1>About</h1>
 <p>
-This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Defensive Security</b> and <b>Full Stack Development</b>.<br>
-Each mini project is designed to reinforce basic programming concepts like variables, conditionals, loops, and input handling.
+This repository is part of my foundational learning in <b>Python programming</b>, supporting my journey as an <b>IT Engineering student</b> focused on <b>Full Stack Development</b> and <b>CyberSecurity</b>.<br>
+Each mini project is designed to reinforce programming concepts like variables, conditionals, loops, and input handling.
 </p>
 
 <hr>
@@ -201,7 +204,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/08f35a8c-1458-409b-946e-09901c8db059" />
 
 <h2>Email Slicer</h2>
-<p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. The program then neatly displays these individual components to the user. </p>
+<p> This is a simple console-based program that parses an email address provided by the user. It uses string manipulation, specifically the <code>split()</code> method, to separate the email into its three core components: the username, the email provider, and the domain extension. </p>
 
 <b>Concepts used:</b>
 <ul>     
@@ -216,7 +219,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <h2>Word Replacer</h2>
 
-<p> This program demonstrates the basic concept of string manipulation by allowing the user to dynamically replace a specific word within a predefined message. It first displays the original message. Then, it prompts the user to input the word they wish to target and the new word to substitute it with. Finally, it uses the built-in Python <code>.replace()</code> method to perform the substitution and prints the modified string to the console. </p>
+<p> This program demonstrates the basic concept of string manipulation by allowing the user to dynamically replace a specific word within a predefined message. It uses the built-in Python <code>.replace()</code> method to perform the substitution and prints the modified string to the console. </p>
 
 <ul>     
   <li>String declaration and basic output (<code>print()</code>)</li>     
