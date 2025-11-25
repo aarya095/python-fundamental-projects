@@ -12,7 +12,7 @@ Currently includes:
   <li><a href="#dice-simulator">Dice Simulator</a></li>
   <li><a href="#quiz">Quiz</a></li>
   <li><a href="#date-and-time-display">Date and Time Display</a></li>
-  <li><a href="#cli-stopwatch">CLI Stopwatch</a></li>
+  <li><a href="#countdown-timer">CLI Stopwatch</a></li>
   <li><a href="#mad-libs">Mad Libs</a></li>
   <li><a href="#email-slicer">Email Slicer</a></li>
   <li><a href="#word-replacer">Word Replacer</a></li>
