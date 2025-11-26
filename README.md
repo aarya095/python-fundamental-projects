@@ -1,4 +1,4 @@
-# python-fundamental-projects
+<img width="681" height="401" alt="Screenshot_20251126_102243" src="https://github.com/user-attachments/assets/57ee2d00-8069-4e83-8fbc-6c8ad878742d" /># python-fundamental-projects
 
 <p>
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
@@ -48,6 +48,15 @@ The program ensures controlled input flow, persistent looping for menu navigatio
   <li>Separation of concerns through dedicated modules</li>
   <li>Error handling using try/except blocks</li>
 </ul>
+
+<p>Example Output</p>
+<img width="500" alt="Screenshot_20251126_102145" src="https://github.com/user-attachments/assets/1f6ad6b3-bbbb-4164-9f99-092d92c1e85f" />
+
+<img width="681" height="401" alt="Screenshot_20251126_102243" src="https://github.com/user-attachments/assets/3ac9fa10-288f-4521-bb48-901941533807" />
+
+<img width="609" height="330" alt="Screenshot_20251126_102318" src="https://github.com/user-attachments/assets/0a2b66fb-bc7b-45a1-a0c8-11270d62d064" />
+
+<img width="607" height="262" alt="Screenshot_20251126_102402" src="https://github.com/user-attachments/assets/a90ed41f-142b-465f-a09d-93581cb79ff7" />
 
 
 <h3>Password Generator</h3>
