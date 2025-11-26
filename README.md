@@ -4,6 +4,7 @@
 A collection of small Python projects built to strengthen programming logic and problem-solving skills.  
 Currently includes:
 <ul>
+  <li><a href="#password-manager">Password Manager</a></li>
   <li><a href="#password-generator">Password Generator</a></li>
   <li><a href="#hangman">Hangman</a></li>
   <li><a href="#rock-paper-scissor">Rock-Paper-Scissor</a></li>
@@ -29,7 +30,25 @@ Each mini project is designed to reinforce programming concepts like variables, 
 
 <hr>
 
-<h1>Projects/h1>
+<h1>Projects</h1>
+
+<h3>Password Manager</h3>
+<p>
+A command-line password manager that allows users to securely store, view, update, and remove account credentials. 
+The application is structured into modular components for handling operations, validating user input, and managing password-related functionality. 
+The program ensures controlled input flow, persistent looping for menu navigation, and organized function handling for each operation.
+</p>
+
+<b>Concepts used:</b>
+<ul>
+  <li>Modular project structure with multiple Python files</li>
+  <li>Input validation using custom validation functions</li>
+  <li>Loop-based menu system for continuous user interaction</li>
+  <li>CRUD operations (Create, Read, Update, Delete) for managing entries</li>
+  <li>Separation of concerns through dedicated modules</li>
+  <li>Error handling using try/except blocks</li>
+</ul>
+
 
 <h3>Password Generator</h3>
 <p>
