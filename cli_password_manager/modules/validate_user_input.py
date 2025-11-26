@@ -1,4 +1,5 @@
 import string
+import modules.validate_user_input as validate_input
 
 number_of_characters = 8
 include_numbers = -1
@@ -6,6 +7,7 @@ include_lower_case = -1
 include_upper_case = -1
 include_symbols = -1
 validation_list_of_1_or_0 = [1,0]
+user_operation_choice_validation = [0,1,2,3,4]
 
 def take_and_validate_input_password():
     """Takes in and validates the user's password on set of conditions"""
@@ -55,7 +57,8 @@ def take_and_validate_length_of_characters():
     return number_of_characters
 
 def take_and_validate_input_numbers():
-    """Takes in length_of_character and validates it, loops until the user provides the accepted input"""
+    """Takes in user of input, if the user wants to inclcude numbers or not, \
+        and validates it, loops until the user provides the accepted input"""
     
     while True:
         try:
@@ -71,7 +74,8 @@ def take_and_validate_input_numbers():
     return include_numbers
 
 def take_and_validate_input_lower_case():
-    """Takes in length_of_character and validates it, loops until the user provides the accepted input"""
+    """Takes in user of input, if the user wants to inclcude lowercase or not, \
+        and validates it, loops until the user provides the accepted input"""
     
     while True:
         try:
@@ -87,7 +91,8 @@ def take_and_validate_input_lower_case():
     return include_lower_case
 
 def take_and_validate_input_upper_case():
-    """Takes in length_of_character and validates it, loops until the user provides the accepted input"""
+    """Takes in user of input, if the user wants to inclcude uppercase or not, \
+        and validates it, loops until the user provides the accepted input"""
     
     while True:
         try:
@@ -103,7 +108,8 @@ def take_and_validate_input_upper_case():
     return include_upper_case
 
 def take_and_validate_input_symbols():
-    """Takes in length_of_character and validates it, loops until the user provides the accepted input"""
+    """Takes in user of input, if the user wants to inclcude symbols or not, \
+        and validates it, loops until the user provides the accepted input"""
     
     while True:
         try:
@@ -118,5 +124,19 @@ def take_and_validate_input_symbols():
 
     return include_symbols
 
-if __name__ == '__main__':
-    take_and_validate_input_password()
+def take_and_validate_input_operations():
+    """Takes in user input for what operation it wants to do, and validates it, \
+        loops until the user provides the accepted input"""
+    
+    while True:
+        try:
+            user_choice = int(input("Choose what operation you want to do according, enter 0, 1, 2, 3, or 4: "))
+            if user_choice in user_operation_choice_validation:
+                break
+            if user_choice not in user_operation_choice_validation:
+                print("Please input either 0, 1, 2, 3 or 4.")
+
+        except ValueError:
+            print("Invalid Input! Please provide an integer.")
+
+    return user_choice
