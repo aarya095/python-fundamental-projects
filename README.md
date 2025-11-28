@@ -49,6 +49,15 @@ The program ensures controlled input flow, persistent looping for menu navigatio
   <li>Error handling using try/except blocks</li>
 </ul>
 
+<p>Example Output</p>
+<img width="600" alt="Screenshot_20251126_102145" src="https://github.com/user-attachments/assets/1f6ad6b3-bbbb-4164-9f99-092d92c1e85f" />
+
+<img width="600" alt="Screenshot_20251126_102243" src="https://github.com/user-attachments/assets/3ac9fa10-288f-4521-bb48-901941533807" />
+
+<img width="600" alt="Screenshot_20251126_102318" src="https://github.com/user-attachments/assets/0a2b66fb-bc7b-45a1-a0c8-11270d62d064" />
+
+<img width="600" alt="Screenshot_20251126_102402" src="https://github.com/user-attachments/assets/a90ed41f-142b-465f-a09d-93581cb79ff7" />
+
 
 <h3>Password Generator</h3>
 <p>
@@ -266,7 +275,7 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <h2>Author</h2>
 <p>
-<b>Aarya</b><br>
+<b>Aarya Sarfare</b><br>
 IT Engineering student | Learning Defensive Security and Development
 </p>
 
