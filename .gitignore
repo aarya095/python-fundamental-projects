@@ -2,9 +2,10 @@
 *.drawio.bkp
 *.pyc
 __pycache__/
-tic_tac_toe/
+tic_tac_toe/venv/
 to_do_list/
 simple_projects/venv/
 txt.py
+txt1.py
 cli_passwd_manager/
 python-fundamental-projects.png
