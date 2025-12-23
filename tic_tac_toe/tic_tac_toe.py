@@ -17,7 +17,6 @@ def computer_play(playing_board_array, computer_player_letter,
                   list_of_available_slots, computer_player_selected_slots):
     """Makes the computer play"""
     computer_selected_slot = random.choice(list_of_available_slots)
-    print(computer_selected_slot)
     index_of_slot = list_of_available_slots.index(computer_selected_slot)
     pop_selected_slot = list_of_available_slots.pop(index_of_slot)
     computer_player_selected_slots.append(pop_selected_slot)
@@ -28,7 +27,6 @@ def computer_play(playing_board_array, computer_player_letter,
                 row_id, column_id = np.where(playing_board_array == slot)
                 i = row_id.item()
                 j = column_id.item()
-                print(i,j)
                 playing_board_array[i][j] = computer_player_letter
 
 def human_play(playing_board_array, human_player_letter, 
@@ -68,10 +66,10 @@ def main():
     print(f"You have '{human_player_letter}'.")
 
     if human_player_letter == 'X':
-        print("Your turn!")
         while len(list_of_available_slots) != 0:
+            print("Your turn!")
             generate_playing_board(playing_board_array)
-
+            
             human_play(playing_board_array, human_player_letter, 
                        list_of_available_slots, human_player_selected_slots)
             
@@ -91,7 +89,7 @@ def main():
             
             result, winner_letter = is_win(playing_board_array)
             if result == True:
-                for key, value in players_dict:
+                for key, value in players_dict.items():
                     if value == winner_letter:
                         print(f"{key} won!")
                 break
@@ -104,11 +102,12 @@ def main():
             computer_play(playing_board_array, computer_player_letter, 
                           list_of_available_slots, computer_player_selected_slots)
             
+            print("Your turn!")
             generate_playing_board(playing_board_array)
             
             result, winner_letter = is_win(playing_board_array)
             if result == True:
-                for key, value in players_dict:
+                for key, value in players_dict.items():
                     if value == winner_letter:
                         print(f"{key} won!")
                 break
@@ -118,7 +117,7 @@ def main():
             
             result, winner_letter = is_win(playing_board_array)
             if result == True:
-                for key, value in players_dict:
+                for key, value in players_dict.items():
                     if value == winner_letter:
                         print(f"{key} won!")
                 break
