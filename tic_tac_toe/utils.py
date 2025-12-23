@@ -28,39 +28,55 @@ def is_win(playing_board_array):
     # Horizontal Winning conditions
     if playing_board_array[0][0] == playing_board_array[0][1] \
         and playing_board_array[0][1] == playing_board_array[0][2]:
-        return True, playing_board_array[0][0]
+        winner_letter = playing_board_array[0][0].item()
+        return True, winner_letter
+    
     elif playing_board_array[1][0] == playing_board_array[1][1] \
         and playing_board_array[1][1] == playing_board_array[1][2]:
-        return True, playing_board_array[1][0]
+        winner_letter = playing_board_array[1][0].item()
+        return True, winner_letter
+    
     elif playing_board_array[2][0] == playing_board_array[2][1] \
         and playing_board_array[2][1] == playing_board_array[2][2]:
-        return True, playing_board_array[2][0]
+        winner_letter = playing_board_array[2][0].item()
+        return True, winner_letter
     
     # Vertical Winning conditions
     elif playing_board_array[0][0] == playing_board_array[1][0] \
         and playing_board_array[1][0] == playing_board_array[2][0]:
-        return True, playing_board_array[0][0]
+        winner_letter = playing_board_array[0][0].item()
+        return True, winner_letter
+    
     elif playing_board_array[0][1] == playing_board_array[1][1] \
         and playing_board_array[1][1] == playing_board_array[2][1]:
-        return True, playing_board_array[0][1]
+        winner_letter = playing_board_array[0][1].item()
+        return True, winner_letter
+    
     elif playing_board_array[0][2] == playing_board_array[1][2] \
         and playing_board_array[1][2] == playing_board_array[2][2]:
-        return True, playing_board_array[0][2]
+        winner_letter = playing_board_array[0][2].item()
+        return True, winner_letter
     
     # Diagonal Winning conditions
     elif playing_board_array[0][0] == playing_board_array[1][1] \
         and playing_board_array[1][1] == playing_board_array[2][2]:
-        return True, playing_board_array[0][0]
+        winner_letter = playing_board_array[0][0].item()
+        return True, winner_letter
+    
     elif playing_board_array[0][2] == playing_board_array[1][1] \
         and playing_board_array[1][1] == playing_board_array[2][0]:
-        return True, playing_board_array[0][2]
+        winner_letter = playing_board_array[0][2].item()
+        return True, winner_letter
+    
+    else:
+        return False, None
 
 if __name__ == '__main__':
-    player_selected_slots = ['6','9','3','4']
-    result = is_win(player_selected_slots)
-    print(result)
+    playing_board_array = np.array([['1','2','a'],['4','5','a'],['7','8','a']])
+    result, winner_letter = is_win(playing_board_array)
+    print(result, winner_letter)
 
-    """    playing_board_array = np.array([['1','2','3'],['4','5','6'],['7','8','9']])
+    """    
         human_selected_slot = '2'
         human_player_letter = 'X'
         for rows in playing_board_array:

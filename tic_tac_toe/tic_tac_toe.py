@@ -62,7 +62,9 @@ def main():
     print("------------------------")
     print("X plays first. Enter 'e' to exit.")
     
-    human_player_letter, computer_player_letter = assign_x_or_o_to_player()
+    players_dict = assign_x_or_o_to_player()
+    human_player_letter = players_dict['Human player']
+    computer_player_letter = players_dict['Computer player']
     print(f"You have '{human_player_letter}'.")
 
     if human_player_letter == 'X':
@@ -75,18 +77,23 @@ def main():
             
             generate_playing_board(playing_board_array)
             
-            result, letter = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array)
             if result == True:
-                print("Congratulations! You Won!")
-                
+                for key, value in players_dict.items():
+                    if value == winner_letter:
+                        print(f"{key} won!")
                 break
+            else:
+                pass
             
             computer_play(playing_board_array, computer_player_letter, 
                           list_of_available_slots, computer_player_selected_slots)
             
-            result = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array)
             if result == True:
-                print("You Lost! Try Again?")
+                for key, value in players_dict:
+                    if value == winner_letter:
+                        print(f"{key} won!")
                 break
 
     else:
@@ -99,18 +106,21 @@ def main():
             
             generate_playing_board(playing_board_array)
             
-            result = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array)
             if result == True:
-                print("You Lost! Try Again?")
+                for key, value in players_dict:
+                    if value == winner_letter:
+                        print(f"{key} won!")
                 break
             
             human_play(playing_board_array, human_player_letter, 
                        list_of_available_slots, human_player_selected_slots)
             
-            result = is_win(playing_board_array)
+            result, winner_letter = is_win(playing_board_array)
             if result == True:
-
-                print("Congratulations! You Won!")
+                for key, value in players_dict:
+                    if value == winner_letter:
+                        print(f"{key} won!")
                 break
     
 

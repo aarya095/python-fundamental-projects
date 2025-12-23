@@ -14,15 +14,12 @@ def assign_x_or_o_to_player():
         computer_player = 'X'
 
     players_dict = {
-        'human_player' : human_player,
-        'computer_player' : computer_player
+        'Human player' : human_player,
+        'Computer player' : computer_player
     }
 
     return players_dict
 
 if __name__ == '__main__':
-    #human_player, computer_player = assign_x_or_o_to_player()
-    #print(human_player, computer_player)
-    mylist = [1,2,3,4,5,6]
-    myStr = str(mylist)
-    print(myStr)
+    player_dict = assign_x_or_o_to_player()
+    print(player_dict)
