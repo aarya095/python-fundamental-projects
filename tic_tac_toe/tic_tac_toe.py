@@ -100,7 +100,6 @@ def main():
     else:
         print("Computer's turn!")
         while len(list_of_available_slots) != 0:
-            print(list_of_available_slots)
             generate_playing_board(playing_board_array)
 
             computer_play(playing_board_array, computer_player_letter, 
