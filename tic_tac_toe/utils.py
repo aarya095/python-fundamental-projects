@@ -1,5 +1,4 @@
 import numpy as np
-import re
 
 def take_and_validate_input_slot(list_of_available_slots):
     """Takes in slot number and validates it, loops until the user provides the accepted input"""
@@ -73,19 +72,14 @@ def is_win(playing_board_array, list_of_available_slots):
         return False, None
 
 if __name__ == '__main__':
-    playing_board_array = np.array([['1','2','a'],['4','5','a'],['7','8','a']])
+    """    playing_board_array = np.array([['1','2','a'],['4','5','a'],['7','8','a']])
     result, winner_letter = is_win(playing_board_array)
-    print(result, winner_letter)
+    print(result, winner_letter)"""
 
-    """    
-        human_selected_slot = '2'
-        human_player_letter = 'X'
-        for rows in playing_board_array:
-            for slot in rows:
-                if slot == human_selected_slot:
-                    row_id, column_id = np.where(playing_board_array == slot)
-                    i = row_id.item()
-                    j = column_id.item()
-                    playing_board_array[i][j] = human_player_letter
+    list_2d_mat = [[1,2,3],[4,5,6],[7,8,9]]
+    index = list_2d_mat[1].index(6)
+    print(index)
+    #print(list_2d_mat[0][0])
 
-        print(playing_board_array)"""
+    numpy_2d_mat = np.array([[1,2,3],[4,5,6],[7,8,9]])
+    print(numpy_2d_mat)

@@ -56,7 +56,7 @@ def main():
     computer_player_selected_slots = []
     playing_board_array = np.array([['1','2','3'],['4','5','6'],['7','8','9']])
 
-    print("Welcome to Tic-Tac-Toe!")
+    print("\nWelcome to Tic-Tac-Toe!")
     print("------------------------")
     print("X plays first. Enter 'e' to exit.")
     
