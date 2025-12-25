@@ -83,8 +83,8 @@ character set, and generates a random password of the desired length.
 <h2>Tic-Tac-Toe</h2>
 <p>
 Accomplished a fully playable CLI Tic-Tac-Toe game, as measured by correct win and tie detection across all winning conditions, by evaluating board state using a 2D NumPy array.
-Accomplished smooth human vs computer turn-based gameplay, as measured by consistent game flow until completion, by structuring logic across modular components.
-Accomplished robust user input handling, as measured by prevention of invalid moves, by validating inputs against dynamically updated available slots.
+Smooth human vs computer turn-based gameplay, as measured by consistent game flow until completion.
+Robust user input handling, as measured by prevention of invalid moves, by validating inputs against dynamically updated available slots.
 </p>
 
 <b>Concepts Used:</b>
