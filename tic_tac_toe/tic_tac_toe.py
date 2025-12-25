@@ -67,7 +67,6 @@ def main():
 
     if human_player_letter == 'X':
         while len(list_of_available_slots) != 0:
-            print(list_of_available_slots)
             print("Your turn!")
             generate_playing_board(playing_board_array)
             
