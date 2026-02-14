@@ -5,6 +5,7 @@ A collection of small Python projects built to strengthen programming logic and 
 Currently includes:
 <ul>
   <li><a href="#password-manager">Password Manager</a></li>
+  <li><a href="#modular-calculator">Modular Calculator</a></li>
   <li><a href="#password-generator">Password Generator</a></li>
   <li><a href="#tic-tac-toe">Tic-Tac-Toe</a></li>
   <li><a href="#hangman">Hangman</a></li>
@@ -59,6 +60,17 @@ The program ensures controlled input flow, persistent looping for menu navigatio
 
 <img width="600" alt="Screenshot_20251126_102402" src="https://github.com/user-attachments/assets/a90ed41f-142b-465f-a09d-93581cb79ff7" />
 
+<h3>Modular Calculator</h3>
+<p>A menu-driven calculator performs operations such as addition, subtraction, multiplication, and division.
+The Calculator Project is made using Object Oriented Programming approach. It uses classes and follows a modular 
+architecture.</p>
+
+<p>Example Output</p>
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/fec4ec3c-9616-4c83-9488-6c5d7231b3f3" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/2e74aab9-6578-4cb4-b893-5bcb555f3258" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/5286296c-3714-47fb-92dd-0e118045d3bf" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/c37bfe1f-df77-4690-9c2f-b9efcd7be9fb" />
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/3f163324-44f3-4ab6-9ed7-3223d5a13a82" />
 
 <h3>Password Generator</h3>
 <p>
