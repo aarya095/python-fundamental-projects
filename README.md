@@ -309,10 +309,8 @@ A simple word game where the program takes user inputs (nouns, verbs, adjectives
 
 <hr>
 
-<h2>Author</h2>
 <p>
-<b>Aarya Sarfare</b><br>
-IT Engineering student | Learning Full Stack Development
+<b>Author: Aarya Sarfare</b>
 </p>
 
 <hr>
