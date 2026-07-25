@@ -4,7 +4,9 @@ import time
 current_time = time.localtime()
 
 def get_current_date():
-    """Get current date"""
+    """
+    Get current date
+    """
 
     current_date = current_time.tm_mday
     current_month = current_time.tm_mon
@@ -15,7 +17,9 @@ def get_current_date():
     return current_date_msg
 
 def get_current_time():
-    """Get current time"""
+    """
+    Get current time
+    """
 
     current_time_minutes = current_time.tm_min
     current_time_hours = current_time.tm_hour

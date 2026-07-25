@@ -48,7 +48,9 @@ dice_drawing = {
     }
 
 def extract_dice_from_dict():
-    """Extract dice from the dictionary"""
+    """
+    Extract dice from the dictionary
+    """
 
     list_of_keys = []
     for key in dice_drawing.keys():
@@ -57,7 +59,9 @@ def extract_dice_from_dict():
     return list_of_keys
 
 def roll_dice():
-    """Choose a dice from the list of dices"""
+    """
+    Choose a dice from the list of dices
+    """
 
     list_of_keys = extract_dice_from_dict()
 
@@ -66,12 +70,14 @@ def roll_dice():
 
     for i in dice_drawing[dice1]:
         print(i)
-        
+
     for i in dice_drawing[dice2]:
         print(i)
 
 def main():
-    """Main function"""
+    """
+    Main function
+    """
     
     print("Welcome To Dice Stimulator!\n")
 
