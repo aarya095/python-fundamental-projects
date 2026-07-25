@@ -22,8 +22,6 @@ def check_for_exit(input):
 def validate_user_int_input(int_input):
     if int_input != int():
         return True
-    else:
-        pass
 
 def validate_user_operation_input(operation_input):
     valid_input = ['a','s','m','d','e']
@@ -44,8 +42,10 @@ while True:
         break
         
     print("Enter 'e' to exit.")
-    user_input_operation = input("What operation do you want to perform? \
-Enter 'a' for addition, 's' for subtraction, 'd' for division, 'm' for multiplication: ").lower()
+    user_input_operation = input(
+        "What operation do you want to perform? \
+Enter 'a' for addition, 's' for subtraction, 'd' for division, 'm' for multiplication: "
+    ).lower()
     
     check_for_exit(user_input_operation)
 
