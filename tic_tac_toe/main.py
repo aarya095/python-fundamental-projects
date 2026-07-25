@@ -9,7 +9,7 @@ def run():
     
     two_by_two_board = game_logic.generate_play_board()
     print(two_by_two_board)
-    game_logic.check_for_available_sqaures(two_by_two_board)
+    game_logic.check_for_available_squares(two_by_two_board)
 
 
 run()
